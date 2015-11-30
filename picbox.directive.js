@@ -3,7 +3,7 @@ var app = angular.module('myModule');
 app.directive('picbox', function() {
   return {
     restrict: 'E',
-    template: 'picbox.html',
+    templateUrl: 'picbox.html',
     replace: true
   }
 });
